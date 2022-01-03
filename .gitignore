@@ -1,0 +1,144 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/maven,eclipse,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=maven,eclipse,java
+
+### Eclipse ###
+/bieber-tweets-common/.gitignore
+/bieber-tweets-service/.gitignore
+/bieber-tweets-app/.gitignore
+
+.metadata
+/bieber-tweets-common/bin/
+/bieber-tweets-service/bin/
+/bieber-tweets-app/bin/
+bin/
+/bieber-tweets-common/tmp/
+/bieber-tweets-service/tmp/
+/bieber-tweets-app/tmp/
+tmp/
+
+/bieber-tweets-common/*.tmp
+/bieber-tweets-service/*.tmp
+/bieber-tweets-commonweb/*.tmp
+*.tmp
+/bieber-tweets-common/*.bak
+/bieber-tweets-service/*.bak
+/bieber-tweets-commonweb/*.bak
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+/bieber-tweets-common/.target
+/bieber-tweets-service/.target
+/bieber-tweets-app/.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+/bieber-tweets-common/.apt_generated/
+/bieber-tweets-service/.apt_generated/
+/bieber-tweets-app/.apt_generated/
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
+### Eclipse Patch ###
+# Spring Boot Tooling
+.sts4-cache/
+
+/bieber-tweets-common/.project
+/bieber-tweets-service/.project
+/bieber-tweets-app/.project
+/bieber-tweets-common/.classpath
+/bieber-tweets-service/.classpath
+/bieber-tweets-app/.classpath
+.project
+.classpath
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+/bieber-tweets-common/.mvn/wrapper/
+/bieber-tweets-service/.mvn/wrapper/
+/bieber-tweets-app/.mvn/wrapper/
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# End of https://www.toptal.com/developers/gitignore/api/maven,eclipse,java
